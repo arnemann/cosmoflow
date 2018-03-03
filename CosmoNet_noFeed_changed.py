@@ -70,8 +70,8 @@ class CosmoNet:
         self.b['b_fc1'] = bias_variable([1024])
 	self.W['W_fc2'] = weight_variable([1024,256],'w9')
         self.b['b_fc2'] = bias_variable([256])
-	self.W['W_fc3'] = weight_variable([256,2],'w10')
-        self.b['b_fc3'] = bias_variable([2])
+	self.W['W_fc3'] = weight_variable([256,3],'w10')
+        self.b['b_fc3'] = bias_variable([3])
 
     #Define some fuctions that might be used   
     
